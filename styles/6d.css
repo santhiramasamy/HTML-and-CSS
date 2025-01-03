@@ -1,0 +1,25 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.model {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Montserrat", serif;
+    margin-bottom: 20px;
+    
+}
+
+.order {
+    font-size: 28px;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.delivery:hover {
+    text-decoration: underline;
+
+}

@@ -1,0 +1,32 @@
+p {
+    font-family: Verdana;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.html-css {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.level {
+    color: gray;
+    margin-top: 5px;
+}
+
+.course {
+    width: 280px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.start {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}

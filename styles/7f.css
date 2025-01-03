@@ -1,0 +1,33 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.email {
+    color: grey;
+    
+}
+
+.linkedin {
+    height: 30px;
+    width: 370px;
+    margin-top: 10px;
+    
+}
+
+.agree {
+    color: grey;
+    margin-top: 15px;
+}
+
+.agree-btn {
+    background-color: rgb(10, 10, 233);
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 380px;
+    padding: 20px 0;
+    border-radius: 190px;
+    margin-top: 20px;
+}

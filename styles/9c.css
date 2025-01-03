@@ -1,0 +1,14 @@
+.service-preview {
+    border: 1px solid gray;
+    width: 300px;
+}
+
+.service {
+    margin-left: 15px;
+
+}
+
+.choice {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}

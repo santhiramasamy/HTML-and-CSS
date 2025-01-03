@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin and padding together</title>
+    <style>
+        .number-btn {
+            background-color: green;
+            color: white;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 10px 20px;
+            margin-top: 10px;
+            margin-left: 20px;
+            transition: margin 0.15s, padding 0.15s;
+        }
+
+        .number-btn:hover {
+            padding: 10px 30px;
+            margin-left: 10px;
+        }    
+    </style>
+</head>
+<body>
+    <button class="number-btn">One</button>
+    <button class="number-btn">Two</button>
+    <button class="number-btn">Three</button>
+</body>
+</html>

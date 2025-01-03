@@ -1,0 +1,31 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.rate {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.cent {
+    color: rgb(140, 207, 140);
+    margin-bottom: 10px;
+}
+
+.time {
+    color: gray;
+
+}
+
+.symbol {
+    font-size: 15px;
+    color: gray;
+    
+}
+
+.cent-percent {
+    color: brown;
+
+}

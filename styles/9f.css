@@ -1,0 +1,38 @@
+.image-format-2 {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    width: 150px;
+
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+
+.image {
+    width: 150px;
+    
+}
+
+.olive {
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+.mutual {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.friend {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}

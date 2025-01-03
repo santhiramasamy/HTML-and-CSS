@@ -1,0 +1,30 @@
+.rounded-img {
+    width: 60px;
+    vertical-align: middle;
+    border-radius: 30px;
+}
+
+.happen {
+    vertical-align: middle;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.tweet {
+    background-color: rgb(33, 33, 245);
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 15px;
+    width: 90px;
+    border-radius: 45px;
+}
+
+.imageformat-1 {
+    width: 500px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,36 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ride {
+    font-family: Arial;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: rgb(237, 233, 233);
+    border: none;
+    padding: 15px 20px;
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.request {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.schedule {
+    background-color: rgb(237, 233, 233);
+    padding: 15px 20px;
+    border: none;
+    margin-left: 20px;
+}

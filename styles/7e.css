@@ -1,0 +1,10 @@
+.rounded-corner {
+    font-size: 17px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 250px;
+    width: 500px;
+    border: 1px solid rgb(187, 181, 181);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
