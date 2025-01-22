@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Practice 6</title>
+    <style>
+      body {
+        font-family: Arial;
+      }
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+      }
+
+      .image-container {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        padding: 15px 10px 0 10px;
+      }
+
+      .kitten2 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+
+      .container2 {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 70px;
+        background-color: rgb(70, 68, 68);
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 150px;
+      }
+
+      .info {
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+      }
+      .hello {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .sub1,
+      .sub2,
+      .sub3 {
+        color: gray;
+        margin-top: 15px;
+        font-size: 18px;
+      }
+
+      .sign {
+        color: gray;
+        font-size: 24px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img
+        src="images/beautiful-kitten-with-flowers-outdoors.jpg"
+        alt="kitten"
+      />
+      <img
+        class="kitten2"
+        src="images/beautiful-kitten-with-flowers-outdoors.jpg"
+        alt="kitten"
+      />
+      <img
+        src="images/beautiful-kitten-with-flowers-outdoors.jpg"
+        alt="kitten"
+      />
+    </div>
+    <div class="container2">
+      <div class="hello">
+        <div class="info">Info</div>
+        <div class="sign">+</div>
+      </div>
+      <div class="sub1"># new-videos</div>
+      <div class="sub2"># updates</div>
+      <div class="sub3"># faq</div>
+    </div>
+  </body>
+</html>

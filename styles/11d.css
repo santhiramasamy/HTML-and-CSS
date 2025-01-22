@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.image-format-3 {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    width: 200px;
+    vertical-align: top;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+    
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+
+.image {
+    width: 200px;
+    
+}
+
+.olive {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.mutual {
+    color: gray;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+.friend {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+.small-img {
+    width: 30px;
+    border-radius: 15px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.smallimg-section {
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.mutual-friends {
+    
+    vertical-align: top;
+    margin-top: 5px;
+}

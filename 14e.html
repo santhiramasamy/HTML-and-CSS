@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Practice 5</title>
+    <style>
+      body {
+        height: 10000px;
+        font-family: Arial;
+      }
+      img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        margin-right: 20px;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 10px;
+      }
+
+      h4 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      .left-section {
+        display: flex;
+        align-items: center;
+      }
+
+      .friend {
+        background-color: blue;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-right: 5px;
+        font-weight: bold;
+      }
+      .message {
+        background-color: gray;
+        border: none;
+        color: black;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-section">
+        <img
+          src="images/beautiful-kitten-with-flowers-outdoors.jpg"
+          alt="kitten"
+        />
+        <h4>Oliver Cat</h4>
+      </div>
+      <div class="right-section">
+        <button class="friend">Add Friend</button>
+        <button class="message">Message</button>
+      </div>
+    </div>
+  </body>
+</html>

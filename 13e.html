@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Practice 5</title>
+    <style>
+      body {
+        font-family: Arial;
+      }
+
+      img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50px;
+        margin-right: 15px;
+      }
+
+      .container {
+        display: flex;
+      }
+
+      .cont2 {
+        flex: 1;
+      }
+
+      .super {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .super1 {
+        color: gray;
+        font-weight: 500;
+      }
+
+      .backend {
+        font-size: 20px;
+        width: 500px;
+        margin-bottom: 15px;
+      }
+
+      .container-2 {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid gray;
+        border-radius: 20px;
+        width: 500px;
+        overflow: hidden; /* To prevent the content from overflowing */
+      }
+
+      
+
+      .sec21 {
+        width: 100px;
+        height: 110px;
+        background-color: rgb(220, 220, 220);
+        margin-right: 10px;
+      }
+      .sec23 {
+        color: gray;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+      }
+
+      .sec24 {
+        font-size: 20px;
+        width: 300px;
+        line-height: 25px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <img
+          src="images/beautiful-kitten-with-flowers-outdoors.jpg"
+          alt="kitten"
+        />
+      </div>
+      <div class="cont2">
+        <div class="super">
+          supersimple.dev <span class="super1">SuperSimpleDev</span>
+        </div>
+        <div class="backend">
+          What is backend web development? A complete overview. New video is up!
+        </div>
+        <div class="container-2">
+          <div class="sec21"></div>
+          <div class="sec22">
+            
+            <div class="sec23">youtube.com</div>
+            <div class="sec24">
+              Backend web development - a complete overview (2021)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

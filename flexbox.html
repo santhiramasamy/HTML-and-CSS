@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox</title>
+  </head>
+  <body style="padding-bottom: 1000px">
+    <div style="display: flex; flex-direction: row">
+      <!-- This div container is the flexbox -->
+      <div style="background-color: lightblue">div 1 text</div>
+      <div style="background-color: lightpink">
+        <!-- It will wrap the text and para inside the same div as grid -->
+        div 2
+        <p>text</p>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 15px">
+      <!-- This div container is the flexbox -->
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <!-- The div will take the specified width just like grid -->
+      <div style="background-color: lightpink; flex: 1">
+        <!-- flex: 1 is similar to 1fr in grid-->
+        flex 1
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 15px">
+      <!-- This div container is the flexbox -->
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <!-- The div will take the specified width just like grid -->
+      <div style="background-color: lightpink; flex: 1">
+        <!-- flex: 1 is similar to 1fr in grid-->
+        flex 1
+      </div>
+      <div style="background-color: lightblue; flex: 2">
+        <!-- flex: 2 is similar to 2fr in grid-->
+        flex 2
+      </div>
+    </div>
+
+    <!-- This div container is the flexbox -->
+    <div style="display: flex; flex-direction: row; margin-top: 15px">
+      <div style="background-color: lightpink; flex: 1">
+        <!-- flex: 1 is similar to 1fr in grid-->
+        flex 1
+      </div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <!-- The div will take the specified width just like grid -->
+
+      <div style="background-color: lightblue; flex: 2">
+        <!-- flex: 2 is similar to 2fr in grid-->
+        flex 2
+      </div>
+    </div>
+
+    <!-- To create a Header Like Layout -->
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: center;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; width: 100px">100px</div>
+
+      <div style="background-color: lightblue; width: 100px">100px</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: space-between;
+        align-items: flex-end;
+        align-items: flex-start;
+        align-items: center;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; width: 100px">100px</div>
+
+      <div style="background-color: lightblue; width: 100px">100px</div>
+    </div>
+
+    
+  </body>
+</html>

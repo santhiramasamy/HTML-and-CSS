@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Practice</title>
+  </head>
+  <body style="padding-bottom: 1000px;">
+    <div style="display: grid; grid-template-columns: 100px 100px">
+      <div style="background-color: blue">div 1</div>
+      <div style="background-color: palevioletred">div 2</div>
+    </div>
+
+
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+        margin-top: 10px;
+      "
+    >
+      <div style="background-color: blue">div 1</div>
+      <div style="background-color: palevioletred">
+        div 2
+        <p>text</p>
+      </div>
+      <div style="background-color: orangered">div 3</div>
+      <!-- Adding another column but we have defined only 3 columns in grid template columns. The below div will be created as new row -->
+      <!-- <div style="background-color: palevioletred">div 2</div>  -->
+    </div>
+
+
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 1fr 1fr;
+        margin-top: 10px;
+      "
+    >
+      <div style="background-color: blue">div 1</div>
+      <div style="background-color: palevioletred">
+        div 2
+        <p>text</p>
+      </div>
+      <div style="background-color: orangered">div 3</div>
+      
+    </div>
+
+
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 1fr 5fr;
+        margin-top: 10px;
+      "
+    >
+      <div style="background-color: blue">div 1</div>
+      <div style="background-color: palevioletred">
+        div 2
+        <p>text</p>
+      </div>
+      <div style="background-color: orangered">div 3</div>
+      
+    </div>
+
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 10px;
+        column-gap: 20px;
+        row-gap: 40px;
+      "
+    >
+      <div style="background-color: blue; height: 200px;">1 fr</div>
+      <div style="background-color: palevioletred; height: 200px;">
+        1 fr
+       
+      </div>
+      <div style="background-color: orangered; height: 200px;">1 fr</div>
+      <div style="background-color: palevioletred; height: 200px;">
+        1 fr
+       
+      </div>
+      <div style="background-color: orangered; height: 200px;">1 fr</div>
+      <div style="background-color: blue; height: 200px;">1 fr</div>
+    </div>
+  </body>
+</html>
